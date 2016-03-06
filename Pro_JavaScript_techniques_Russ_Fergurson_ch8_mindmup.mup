@@ -1,0 +1,197 @@
+{
+  "title": "Pro_JavaScript_techniques_Russ_Fergurson_ch8_mindmup ",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "encapsulate the techniques necessary to create a dynamic web application",
+      "id": 17,
+      "attr": {
+        "style": {}
+      }
+    },
+    "2": {
+      "title": "the individual components of the Ajax technique are completely interchangeable—using JSON instead of XML",
+      "id": 18,
+      "attr": {
+        "style": {}
+      }
+    },
+    "3": {
+      "title": "Ajax libraries",
+      "id": 26,
+      "ideas": {
+        "1": {
+          "title": "Jquery, Dojo, Ext JS, Zepto and MotoTools or Ajax-focused libraries like Fermata and reqwest.",
+          "id": 27,
+          "ideas": {}
+        }
+      },
+      "attr": {
+        "style": {}
+      }
+    },
+    "13": {
+      "title": " types of HTTP requests",
+      "id": 32,
+      "attr": {
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": " Hypertext Transfer Protocol (HTTP) ",
+          "id": 39,
+          "ideas": {
+            "1": {
+              "title": "transfer HTTP documents and associate files",
+              "id": 40
+            },
+            "2": {
+              "title": "connections dynamically and asynchronously using JavaScript",
+              "id": 41
+            }
+          }
+        },
+        "2": {
+          "title": "Establishing connection",
+          "id": 44,
+          "ideas": {
+            "1": {
+              "title": " generally organized through the XMLHttpRequest object ",
+              "id": 46
+            }
+          }
+        },
+        "3": {
+          "title": "Life cycle",
+          "id": 47,
+          "attr": {
+            "attachment": {
+              "contentType": "text/html",
+              "content": "1 Create an instance of XMLHttpRequest.<br>2 Configure the object with appropriate settings.<br>3 Open the request via a specific HTTP verb and destination.<br>4 Send the request."
+            },
+            "style": {}
+          }
+        }
+      }
+    },
+    "23": {
+      "title": "send data to a server",
+      "id": 33,
+      "attr": {
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "Serializing data",
+          "id": 48,
+          "ideas": {
+            "1": {
+              "title": "The first step of sending a set of data to a server is to format it so that the server can easily read it",
+              "id": 49,
+              "attr": {
+                "attachment": {
+                  "contentType": "text/html",
+                  "content": "We need to ask a few questions before serializing data. First:<br><br>&nbsp;&nbsp;&nbsp; 1. What data are we sending? Are we sending variable-and-value pairs? Large sets of data? Files?<br>&nbsp;&nbsp;&nbsp; 2. How are we sending this data, GET? POST? Another HTTP verb?<br>&nbsp;&nbsp;&nbsp; 3. What format of data are we using? There are two: application/x-www-form-urlencoded and multipart/form-data. The former is sometimes called query string encoding and takes the familiar form of var1=val1&amp;var2=val2..."
+                },
+                "style": {}
+              }
+            }
+          }
+        },
+        "2": {
+          "title": "FormData Objects",
+          "id": 50,
+          "ideas": {
+            "1": {
+              "title": "append method with FormData",
+              "id": 51
+            },
+            "2": {
+              "title": "Raw JavaScript Objects Converted to Serialized Form",
+              "id": 52
+            }
+          }
+        },
+        "3": {
+          "title": "Get Request",
+          "id": 54,
+          "ideas": {
+            "1": {
+              "title": "that the serialized data is appended to the server URL",
+              "id": 56
+            }
+          }
+        },
+        "4": {
+          "title": "Post Request",
+          "id": 55,
+          "ideas": {
+            "1": {
+              "title": "sending data of any format and of any length (not just limited to your serialized string of data)",
+              "id": 57,
+              "ideas": {
+                "1": {
+                  "title": "pure XML ( txt/xml, application / xml )",
+                  "id": 58
+                },
+                "2": {
+                  "title": "JavaScript Object ( application/json )",
+                  "id": 59
+                }
+              }
+            },
+            "2": {
+              "title": "POSTing XML Data to a Server",
+              "id": 60,
+              "ideas": {
+                "1": {
+                  "title": "With it, you can create implementations of different communication protocols, such as XML-RPC or SOAP.",
+                  "id": 61
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "33": {
+      "title": "HTTP response",
+      "id": 34,
+      "attr": {
+        "style": {}
+      }
+    },
+    "43": {
+      "title": "data result from resonse",
+      "id": 36
+    },
+    "53": {
+      "title": "asynchronous responses",
+      "id": 37
+    },
+    "63": {
+      "title": "Making requests across domains, enabled by CORS",
+      "id": 38
+    },
+    "-1": {
+      "title": "An acronym for Asynchronous JavaScript and XML",
+      "id": 15,
+      "ideas": {}
+    },
+    "-2": {
+      "title": "no connections to outside domains",
+      "id": 22,
+      "ideas": {
+        "1": {
+          "title": "this is enforced by using the Cross-Origin Resource Sharing standard, also known as CORS.",
+          "id": 25
+        }
+      },
+      "attr": {
+        "style": {}
+      }
+    }
+  },
+  "links": []
+}
